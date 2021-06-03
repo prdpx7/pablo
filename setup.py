@@ -6,7 +6,7 @@ with open(os.path.join(os.path.dirname(__file__), 'README.md')) as readme:
 
 setup(
     name='django-pablo',
-    version='0.1',
+    version='0.2',
     packages=find_packages(),
     include_package_data=True,
     license='MIT License',
@@ -29,7 +29,7 @@ setup(
         'Topic :: Internet :: WWW/HTTP :: Dynamic Content',
     ],
     install_requires=[
-        "Faker==6.5.0",
+        "Faker==8.5.0",
         "Django>=2.2"
     ],
 )
